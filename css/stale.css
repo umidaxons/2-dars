@@ -196,7 +196,7 @@ img {
 /* HERO END */
 /* SERVICES START */
 .services {
-  padding-top: 140px;
+  padding: 140px;
   background-color: #012f34;
   color: #fff;
   padding-bottom: 140px;
@@ -230,13 +230,15 @@ img {
 .services-text {
   margin-bottom: 16px;
 }
-.services-item-img {
+/* .services-item-img {
   width: 100px;
   height: 100px;
   background-color: #2c6269;
   border-radius: 50px;
-}
+} */
+
 .services-item-title {
 }
 .services-description {
+  width: 445px;
 }
