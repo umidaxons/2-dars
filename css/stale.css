@@ -109,6 +109,9 @@ img {
 .orange-text {
   color: #f67e7e;
 }
+.blue-text {
+  color: #79c8c7;
+}
 .divider {
   height: 4px;
   width: 50px;
@@ -158,8 +161,7 @@ img {
 /* HEADER END */
 
 /* HERO START */
-.main {
-}
+
 .hero {
   padding-top: 56px;
   background-color: #014e56;
@@ -230,15 +232,94 @@ img {
 .services-text {
   margin-bottom: 16px;
 }
-/* .services-item-img {
-  width: 100px;
-  height: 100px;
-  background-color: #2c6269;
-  border-radius: 50px;
-} */
 
-.services-item-title {
-}
 .services-description {
   width: 445px;
 }
+/* SERVICES END */
+
+/* REVIEWS START */
+.reviews {
+  padding-top: 140px;
+  background-color: #004047;
+  color: #ffffff;
+  padding-bottom: 140px;
+  background-image: url(../images/reviews-right.svg),
+    url(../images/reviews-left.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom -100px, left top;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reviews-title {
+  width: 100%;
+  max-width: 932px;
+  font-weight: 700;
+  line-height: 48px;
+  font-size: 48px;
+  margin-bottom: 56px;
+}
+.reviews-list {
+  display: flex;
+}
+.reviews-item {
+  background-image: url(../images/“.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.reviews-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.reviews-content {
+}
+.reviews-description {
+  width: 350px;
+  margin-bottom: 24px;
+}
+.reviews-item-title {
+  font-size: 18px;
+  line-height: 28px;
+  color: #79c8c7;
+  margin-bottom: 2px;
+}
+em {
+  margin-bottom: 32px;
+}
+/* REVIEWS END */
+
+/* CTA START */
+.cta {
+  padding-top: 76px;
+  background-color: #f67e7e;
+  color: #012f34;
+  padding-bottom: 76px;
+  background-image: url(../images/cta-right\ bottom.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom -50px;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta-title {
+  width: 700;
+  font-size: 48px;
+  line-height: 48px;
+  padding-left: 63px;
+}
+.btn {
+}
+.btn-dark {
+}
+.cta-btn {
+}
+/* CTA END */
