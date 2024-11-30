@@ -1,0 +1,242 @@
+@font-face {
+  font-display: swap;
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/livvic-v14-latin-500italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/livvic-v14-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/livvic-v14-latin-700italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/livvic-v14-latin-700.woff2") format("woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 3px dotted #fff;
+  outline-offset: 5px;
+}
+ul,
+ol {
+  list-style: none;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+.container {
+  width: 100%;
+  max-width: 1440;
+  padding-left: 165px;
+  padding-right: 165px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  margin: 0;
+}
+main {
+  flex-grow: 1;
+}
+
+.btn {
+  border: 2px solid transparent;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 9px 33px 11px 32px;
+  border-radius: 24px;
+  transition: 0.3s;
+}
+
+.btn-white {
+  color: #fff;
+  border-color: #ffff;
+}
+.btn-white:hover {
+  background-color: #fff;
+  color: #002529;
+}
+.btn-dark {
+  color: #002529;
+  border-color: #002529;
+}
+.btn-dark:hover {
+  background-color: #002529;
+  color: #fff;
+}
+.btn:active {
+  background-color: #ffffff;
+  color: #014e56;
+}
+img {
+  display: flex;
+}
+.orange-text {
+  color: #f67e7e;
+}
+.divider {
+  height: 4px;
+  width: 50px;
+}
+.blue-divider {
+  background-color: #79c8c7;
+}
+.orange-divider {
+  background-color: #f67e7e;
+}
+
+/* HEADER START */
+.header {
+  background-color: #014e56;
+  padding-top: 73px;
+  padding-bottom: 73px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.site-logo {
+  color: #ffffff;
+  margin-right: 80px;
+}
+.site-logo:hover {
+  opacity: 80px;
+}
+.site-logo:active {
+  opacity: 60px;
+}
+.sitenav {
+  margin-right: auto;
+}
+.sitenav-list {
+  display: flex;
+  gap: 40px;
+}
+.sitenav-link {
+  color: #fff;
+  transition: 0.3s;
+}
+.sitenav-link:hover {
+  color: #f67e7e;
+}
+/* HEADER END */
+
+/* HERO START */
+.main {
+}
+.hero {
+  padding-top: 56px;
+  background-color: #014e56;
+  color: #ffff;
+  padding-bottom: 250px;
+  background-image: url(../images/backraund-img-rights.svg),
+    url(../images/backgraund-img-left.svg);
+  background-repeat: no-repeat;
+  background-position: left -100px top 50px, right 165px bottom -100px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-title {
+  font-size: 100px;
+  line-height: 100px;
+  width: 535px;
+}
+
+.hero-description {
+  width: 100%;
+  max-width: 445px;
+}
+.hero-divider {
+  margin-bottom: 79px;
+}
+
+.hero-description-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+/* HERO END */
+/* SERVICES START */
+.services {
+  padding-top: 140px;
+  background-color: #012f34;
+  color: #fff;
+  padding-bottom: 140px;
+  background-image: url(../images/services-img-right.svg);
+  background-repeat: no-repeat;
+  background-position: right -100px bottom 0;
+}
+
+.services-container {
+  display: flex;
+}
+
+.services-divider {
+  margin-bottom: 54px;
+}
+
+.services-title {
+  font-size: 48px;
+  line-height: 48px;
+  width: 445px;
+}
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+.services-item {
+  display: flex;
+  gap: 46.9px;
+}
+.services-text {
+  margin-bottom: 16px;
+}
+.services-item-img {
+  width: 100px;
+  height: 100px;
+  background-color: #2c6269;
+  border-radius: 50px;
+}
+.services-item-title {
+}
+.services-description {
+}
