@@ -328,18 +328,58 @@ em {
 }
 
 .footer-container {
+  margin-top: 48px;
+  margin-bottom: 48px;
   display: flex;
+  justify-content: space-between;
+  gap: 125px;
 }
-.site-logo {
-}
-.header-logo-img {
-}
-.footer-sitenov {
-}
+
 .footer-sitenav-list {
+  display: flex;
+  margin-top: 25px;
+  gap: 40px;
 }
-.footer-sitenav-item {
-}
+
 .footer-sitenav-link {
+  color: #ffffff;
+  &:hover {
+    color: #f67e7e;
+  }
+}
+
+.footer-services-item {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 51px;
+}
+.footer-links-fasebook-icon {
+  color: #ffffff;
+  &:hover {
+    color: #f67e7e;
+  }
+}
+.footer-links-pinterest-icon {
+  color: #ffffff;
+  &:hover {
+    color: #f67e7e;
+  }
+}
+.footer-links-twitter-icon {
+  color: #ffffff;
+  &:hover {
+    color: #f67e7e;
+  }
+}
+
+.footer-text {
+  color: #ffffff;
 }
 /* FOOTER END */
