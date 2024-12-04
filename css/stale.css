@@ -255,6 +255,7 @@ img {
 .reviews-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 .reviews-title {
@@ -314,6 +315,8 @@ em {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  max-width: 917px;
 }
 .cta-title {
   width: 700;
