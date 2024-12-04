@@ -234,6 +234,7 @@ img {
 }
 
 .services-description {
+  opacity: 80%;
   width: 445px;
 }
 /* SERVICES END */
@@ -351,6 +352,7 @@ em {
 .footer-services-item {
   color: #ffffff;
   font-size: 15px;
+  opacity: 80%;
   line-height: 25px;
   font-weight: 600;
 }
@@ -368,18 +370,13 @@ em {
 }
 .footer-links-pinterest-icon {
   color: #ffffff;
-  &:hover {
-    color: #f67e7e;
-  }
 }
 .footer-links-twitter-icon {
   color: #ffffff;
-  &:hover {
-    color: #f67e7e;
-  }
 }
 
 .footer-text {
   color: #ffffff;
+  opacity: 80%;
 }
 /* FOOTER END */
