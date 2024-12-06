@@ -3,7 +3,7 @@
 /* HERO START */
 
 .hero {
-  padding-top: 120px;
+  padding-top: 47px;
   padding-bottom: 120px;
   background-color: #014e56;
   background-image: url(../images/abaut-hero-bg-left-bottom-img.svg);
@@ -128,19 +128,20 @@
   justify-self: center;
   position: relative;
   bottom: -28px;
+  fill: #79c8c7;
 }
-.plas-img:hover svg path {
+.plas-img svg path {
   background-color: #79c8c7;
 }
 
 /* FEATURAS END */
 /* STORIS START */
 .stories {
-  margin-top: 140px;
-  margin-bottom: 140px;
-  background-image: url(../images/clients-circle.svg);
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-image: url(../images/bg-pattern-about-4.svg);
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: top left;
 }
 .stories-container {
 }
