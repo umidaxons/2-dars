@@ -108,6 +108,9 @@ main {
 img {
   display: flex;
 }
+svg {
+  display: flex;
+}
 .orange-text {
   color: #f67e7e;
 }
@@ -160,6 +163,7 @@ img {
 .sitenav-link:hover {
   color: #f67e7e;
 }
+
 #active {
   color: #f67e7e;
 }
