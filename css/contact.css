@@ -6,9 +6,10 @@
   padding-top: 47px;
   padding-bottom: 120px;
   color: #fff;
-  background-image: url(../images/content.hero.bg.left.center.svg);
+  background-image: url(../images/content.hero.bg.left.center.svg),
+    url(../images/contact.hero.b-g.right.bottom.svg);
   background-repeat: no-repeat;
-  background-position: left -100px top 65px;
+  background-position: left -100px top 65px, right -100px bottom;
 }
 
 .hero-container {
